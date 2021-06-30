@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* 変数定義 */
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -53,7 +54,7 @@ table {
   border-spacing: 0;
 }
 
-/* 変数定義 */
+/* mixin */
 /* ここから */
 body {
   max-width: 100%;
@@ -205,5 +206,45 @@ header .logo {
 
 .button2:active {
   background-color: #d89923;
+}
+
+.color1 {
+  width: 50px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #1683ff;
+}
+
+.color2 {
+  width: 50px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #006ae2;
+}
+
+.color3 {
+  width: 50px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #0052af;
+}
+
+.color4 {
+  width: 50px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #499eff;
+}
+
+.color5 {
+  width: 50px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #7cb9ff;
 }
 /*# sourceMappingURL=stylesheet.css.map */
