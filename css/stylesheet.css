@@ -53,6 +53,7 @@ table {
   border-spacing: 0;
 }
 
+/* 変数定義 */
 /* ここから */
 body {
   max-width: 100%;
@@ -76,26 +77,133 @@ header .logo {
 .wrapper {
   padding: 30px;
   height: 100%;
+  width: 90%;
 }
 
 .container {
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
-  line-height: normal;
-  padding: 3em;
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.container h1 {
+.box {
+  display: flex-inline;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  -ms-flex-item-align: auto;
+      align-self: auto;
+  margin: 15px 15px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: normal;
+  padding: 1.5em;
+  height: 100%;
+  text-align: center;
+  width: 300px;
+  text-align: center;
+}
+
+.box .title {
   font-weight: bold;
   color: #4b4a46;
   font-size: 36px;
 }
 
-.container p {
-  padding-top: 30px;
+.box .sub {
+  padding-top: 1.5em3;
   color: #4b4a46;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: #a84040;
+}
+
+.circle2 {
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: #435296;
+}
+
+.circle3 {
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: #bbab1e;
+}
+
+.button {
+  padding: 10px 30px;
+  opacity: 0.8;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0.5em auto;
+  font-weight: bold;
+  background-color: #0acdbc;
+  -webkit-box-shadow: 0px 5px #05998d;
+          box-shadow: 0px 5px #05998d;
+  color: white;
+  margin: 1em auto;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  position: relative;
+  top: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button:active {
+  background-color: #0acdbc;
+}
+
+.button2 {
+  padding: 10px 30px;
+  opacity: 0.8;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0.5em auto;
+  font-weight: bold;
+  background-color: #d89923;
+  -webkit-box-shadow: 0px 5px #997024;
+          box-shadow: 0px 5px #997024;
+  color: white;
+}
+
+.button2:hover {
+  opacity: 1;
+}
+
+.button2:active {
+  position: relative;
+  top: 5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button2:active {
+  background-color: #d89923;
 }
 /*# sourceMappingURL=stylesheet.css.map */
